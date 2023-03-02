@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
         {
             for (int k = 0; k < n; k++)
             {
-                printf("*");
+                printf("* ");
             }
         }
         else
@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
             for (int k = 0; k < n; k++)
             {
                 if (k == 0 || k == n - 1)
-                    printf("*");
+                    printf("* ");
                 else
-                    printf(" ");
+                    printf("  ");
             }
         }
 

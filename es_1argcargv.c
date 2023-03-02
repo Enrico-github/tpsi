@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 
     if (argc != 2)
     {
-        printf("Errore argomenti\n");
+        printf("Errore\n");
         exit(0);
     }
 
